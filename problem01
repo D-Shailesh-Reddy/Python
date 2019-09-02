@@ -1,0 +1,21 @@
+amount = int(input("enter amount "))
+two_thousand = amount // 2000
+five_hun: int = (amount % 2000) // 500
+two_hun = (amount % 500) // 200
+hun = (amount % 200) // 100
+fif = (amount % 100) // 50
+twenty = (amount % 50) // 20
+ten = (amount % 20) // 10
+five = (amount % 10) // 5
+two = (amount % 5) // 2
+one = (amount % 2) // 1
+print("no of 2000 notes is", two_thousand, "")
+print("no of 500 notes is", five_hun, "")
+print("no of 200 notes is", two_hun, "")
+print("no of 100 notes is", hun, "")
+print("no of 50 notes is", fif, "")
+print("no of 20 notes is", twenty, "")
+print("no of 10 notes is", ten, "")
+print("no of 5 coins is", five, "")
+print("no of 2 coins is", two, "")
+print("no of 1 coins is", one, "")
