@@ -1,5 +1,5 @@
 n=int(input("enter a number: "))
-if((n>>2)&1==1):
+if((n<<2)==2):
     print("",n, "is even")
 else:
     print("",n,"is odd")
